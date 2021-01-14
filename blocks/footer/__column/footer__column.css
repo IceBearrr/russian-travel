@@ -1,0 +1,13 @@
+
+.footer__column {
+    margin: 0;
+    display: flex;
+}
+
+@media all and (max-width: 520px) {
+    .footer__column {
+        flex-direction: column;
+        padding-left: 16px;
+        height: 100%;
+    }
+}

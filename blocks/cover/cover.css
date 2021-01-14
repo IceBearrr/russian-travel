@@ -1,0 +1,39 @@
+.cover{
+    /*width: 1184px;*/
+    display:grid;
+    grid-template-rows:  740px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    background-image: url(../../../../russian-travel/images/__background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto 0 auto;
+    z-index: 2;
+}
+
+.cover:hover{
+    opacity: 0.8;
+}
+
+@media all and (max-width: 1280px) {
+    .cover{
+        grid-template-rows: 740px;
+    }
+}  
+@media all and (max-width: 1024px) {
+    .cover{
+        grid-template-rows: 640px;
+    }
+}  
+@media all and (max-width: 768px) {
+    .cover {
+        grid-template-rows: 480px;
+    }
+} 
+@media all and (max-width: 320px) {
+    .cover {
+        grid-template-rows: 200px;
+    }
+} 

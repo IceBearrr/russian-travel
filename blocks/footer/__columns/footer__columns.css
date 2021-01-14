@@ -1,0 +1,16 @@
+
+.footer__columns{
+    display: flex; 
+    align-items: self-start; 
+    justify-content: space-between; 
+    /*width: 1184px;*/
+    /*height: 18px;*/
+    width: 100%;
+}
+@media all and (max-width: 320px) {
+    .footer__columns{
+        flex-direction: column;
+        height: 100%;
+    }
+ }
+    

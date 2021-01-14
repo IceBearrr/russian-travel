@@ -1,0 +1,8 @@
+
+.cover__link{
+    text-decoration: none; 
+}
+
+.cover__link:before{
+    background: #2A2C2F;
+}

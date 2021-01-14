@@ -1,0 +1,14 @@
+.footer{
+    /*width: 1184px;*/
+    /*height: 18px;*/
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    flex-direction: row; 
+}
+
+@media all and (max-width: 320px) {
+    .footer {
+        min-height: 310px;
+    }
+}

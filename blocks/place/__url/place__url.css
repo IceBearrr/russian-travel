@@ -1,0 +1,11 @@
+
+.place__url{
+    margin-bottom: 48px;
+    align-self: end;
+}
+
+@media all and (max-width: 320px) {
+    .place__url {
+        margin-bottom: 0;
+    }
+}

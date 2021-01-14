@@ -1,0 +1,10 @@
+
+.header{
+    /*width: 1184px;*/
+    /*height: 52px;*/
+    width: 100%;
+    margin: auto auto 56px auto;
+    padding-top: 28px;
+    display: grid;
+    grid-template-columns: 9fr repeat(2, 1fr);
+}
