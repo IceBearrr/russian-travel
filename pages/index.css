@@ -1,49 +1,49 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
-@import url(../../travel-repo/russian-travel/blocks/root/root.css);
+@import url(../blocks/root/root.css);
 
-@import url(../../travel-repo/russian-travel/blocks/header/header.css);
-@import url(../../travel-repo/russian-travel/blocks/header/__lang-link/header__lang-link.css);
-@import url(../../travel-repo/russian-travel/blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__logo/header__logo.css);
 
-@import url(../../travel-repo/russian-travel/blocks/lead/lead.css);
-@import url(../../travel-repo/russian-travel/blocks/lead/__caption/lead__caption.css);
-@import url(../../travel-repo/russian-travel/blocks/lead/__image/lead__image.css);
-@import url(../../travel-repo/russian-travel/blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../../travel-repo/russian-travel/blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
 
-@import url(../../travel-repo/russian-travel/blocks/intro/intro.css);
-@import url(../../travel-repo/russian-travel/blocks/intro/__title/intro__title.css);
-@import url(../../travel-repo/russian-travel/blocks/intro/__text/intro__text.css);
-@import url(../../travel-repo/russian-travel/blocks/intro/__list/intro__list.css);
-@import url(../../travel-repo/russian-travel/blocks/intro/__list-text/intro__list-text.css);
-@import url(../../travel-repo/russian-travel/blocks/intro/__list-heading/intro__list-heading.css);
-@import url(../../travel-repo/russian-travel/blocks/intro/__list-cell/intro__list-cell.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-text/intro__list-text.css);
+@import url(../blocks/intro/__list-heading/intro__list-heading.css);
+@import url(../blocks/intro/__list-cell/intro__list-cell.css);
 
-@import url(../../travel-repo/russian-travel/blocks/photo-grid/photo-grid.css);
-@import url(../../travel-repo/russian-travel/blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
-@import url(../../travel-repo/russian-travel/blocks/places/places.css);
+@import url(../blocks/places/places.css);
 
-@import url(../../travel-repo/russian-travel/blocks/place/place.css);
-@import url(../../travel-repo/russian-travel/blocks/place/__image/place__image.css);
-@import url(../../travel-repo/russian-travel/blocks/place/__link/place__link.css);
-@import url(../../travel-repo/russian-travel/blocks/place/__paragraph/place__paragraph.css);
-@import url(../../travel-repo/russian-travel/blocks/place/__title/place__title.css);
-@import url(../../travel-repo/russian-travel/blocks/place/__url-heading/place__url-heading.css);
-@import url(../../travel-repo/russian-travel/blocks/place/__url/place__url.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__url/place__url.css);
 
-@import url(../../travel-repo/russian-travel/blocks/cover/cover.css);
-@import url(../../travel-repo/russian-travel/blocks/cover/__title/cover__title.css);
-@import url(../../travel-repo/russian-travel/blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../../travel-repo/russian-travel/blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__link/cover__link.css);
 
-@import url(../../travel-repo/russian-travel/blocks/footer/footer.css);
-@import url(../../travel-repo/russian-travel/blocks/footer/__item/footer__item.css);
-@import url(../../travel-repo/russian-travel/blocks/footer/__link/footer__link.css);
-@import url(../../travel-repo/russian-travel/blocks/footer/__columns/footer__columns.css);
-@import url(../../travel-repo/russian-travel/blocks/footer/__column/footer__column.css);
-@import url(../../travel-repo/russian-travel/blocks/footer/__column/_copyright/footer__column_copyright.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column/_copyright/footer__column_copyright.css);
 
 
 

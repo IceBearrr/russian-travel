@@ -1,7 +1,7 @@
 .cover__title {
     /*width: 560px;*/
     /*height: 152px;*/
-    width: 100%;
+    width: 560px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -17,30 +17,31 @@
         font-size: 72px;
         line-height: 76px;
         padding-top: 245px;
-        width: calc(100% - 2 * 312px);
+        margin-left: 312px;
     }
 }
 
 @media all and (max-width: 1024px) {
     .cover__title {
         padding-top: 195px;
-        width: calc(100% - 2 * 232px);
+        margin-left: 232px;
     }
 }
 
 @media all and (max-width: 768px) {
     .cover__title {
         padding-top: 115px;
-        width: calc(100% - 2 * 104px);
+        margin-left: 104px;
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
         padding-top: 33px;
         margin-bottom: 16px;
-        width: calc(100% - 2 * 16px);
+        margin-left: 16px;
+        width: 288px;
     }
 } 

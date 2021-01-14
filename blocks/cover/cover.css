@@ -5,12 +5,11 @@
     align-items: center;
     justify-items: center;
     width: 100%;
-    background-image: url(../../../../russian-travel/images/__background.jpg);
-    background-size: contain;
+    background-image: url(../../../russian-travel/images/__background.jpg);
+    background-size: 1184px 740px;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto 0 auto;
-    z-index: 2;
 }
 
 .cover:hover {
@@ -20,23 +19,31 @@
 @media all and (max-width: 1280px) {
     .cover {
         grid-template-rows: 740px;
+        background-size: 1184px 740px;
+
     }
 }
 
 @media all and (max-width: 1024px) {
     .cover {
         grid-template-rows: 640px;
+        background-size: 1024px 640px;
+
     }
 }
 
 @media all and (max-width: 768px) {
     .cover {
         grid-template-rows: 480px;
+        background-size: 768px 480px;
+
     }
 }
 
 @media all and (max-width: 320px) {
     .cover {
         grid-template-rows: 200px;
+        background-size: 320px 200px;
+
     }
 } 
