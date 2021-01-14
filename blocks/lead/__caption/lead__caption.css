@@ -9,8 +9,7 @@
     letter-spacing: 0.15em;
     margin-top: 8px;
     color: white;
-    display: block;
-    margin-left:148px;
+    margin-left: 148px;
 }
 
 @media all and (min-width: 1280px) {

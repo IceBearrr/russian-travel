@@ -2,28 +2,25 @@
 .lead__image {
     /*width: 984px;*/
     /*height: 615px;*/
-    width: calc(100% - 2*148px);
+    width: 100%;
     margin: auto;
 }
-
+/*
 @media screen and (max-width: 1280px) {
     .lead__image {
-        width: calc(100% - 2*148px);
-        /*margin-left: 148px; */
+        margin-left: 148px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px){
     .lead__image {
-        width: calc(100% - 2 * 48px);
-        /*margin-left: 48px;*/
+         margin-left: 48px;
+    }}
 
-    }
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .lead__image {
         width: 100%;
 
     }
 }
+*/
