@@ -11,15 +11,17 @@
         width: 690px;
     }
 }
+
 @media all and (max-width: 1024px) {
     .intro {
         margin-left: 48px;
         margin-right: 0;
     }
 }
+
 @media all and (max-width: 768px) {
     .intro {
-         margin: 0 0 88px 24px;
+        margin: 0 0 88px 24px;
     }
 }
 

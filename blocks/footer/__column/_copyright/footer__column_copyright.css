@@ -18,16 +18,18 @@
         line-height: 16px;
         margin-right: 48px;
     }
-}  
+}
+
 @media all and (max-width: 768px) {
     .footer__column_copyright {
         margin-right: 24px;
     }
-}  
+}
+
 @media all and (max-width: 320px) {
     .footer__column_copyright {
-         line-height: 14px;
-         text-align: left;
-         
+        line-height: 14px;
+        text-align: left;
+
     }
 }    

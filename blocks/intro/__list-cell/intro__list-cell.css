@@ -1,9 +1,9 @@
 
-
 .intro__list-cell {
     display: flex;
     margin: 0;
 }
+
 @media all and (max-width: 320px) {
     .intro__list-cell {
         max-width: 90%;

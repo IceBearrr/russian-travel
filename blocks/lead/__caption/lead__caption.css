@@ -1,5 +1,5 @@
 
-.lead__caption{
+.lead__caption {
     /*height: 14px;*/
     /*width: 158px;*/
     font-size: 10px;
@@ -17,17 +17,19 @@
     .lead__caption {
         margin-left: 148px;
     }
-} 
+}
+
 @media all and (min-width: 1024px) {
     .lead__caption {
         margin-left: 48px;
     }
-} 
+}
+
 @media all and (min-width: 768px) {
     .lead__caption {
         margin-left: 24px;
     }
-} 
+}
 
 @media all and (min-width: 320px) {
     .lead__caption {

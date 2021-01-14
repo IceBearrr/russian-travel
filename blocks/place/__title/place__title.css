@@ -1,5 +1,5 @@
 
-.place__title{
+.place__title {
     /*height: auto;*/
     /*width: 460px;*/
     color: white;
@@ -16,14 +16,14 @@
         font-size: 72px;
         line-height: 76px;
     }
-}  
+}
 
 @media all and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
     }
-}  
+}
 
 @media all and (max-width: 320px) {
     .place__title {

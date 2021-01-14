@@ -1,6 +1,6 @@
-.cover{
+.cover {
     /*width: 1184px;*/
-    display:grid;
+    display: grid;
     grid-template-rows:  740px;
     align-items: center;
     justify-items: center;
@@ -13,25 +13,28 @@
     z-index: 2;
 }
 
-.cover:hover{
+.cover:hover {
     opacity: 0.8;
 }
 
 @media all and (max-width: 1280px) {
-    .cover{
+    .cover {
         grid-template-rows: 740px;
     }
-}  
+}
+
 @media all and (max-width: 1024px) {
-    .cover{
+    .cover {
         grid-template-rows: 640px;
     }
-}  
+}
+
 @media all and (max-width: 768px) {
     .cover {
         grid-template-rows: 480px;
     }
-} 
+}
+
 @media all and (max-width: 320px) {
     .cover {
         grid-template-rows: 200px;

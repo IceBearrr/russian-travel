@@ -1,4 +1,4 @@
-.place__link{
+.place__link {
     /*width: 456px;*/
     /*height: 22px;*/
     width: 100%;
@@ -9,6 +9,7 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
 .place__link:hover {
     opacity: 0.8;
 }

@@ -1,11 +1,10 @@
-@import url(../vendor/normalize.css); 
-@import url(../fonts/inter.css); 
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
 @import url(../../travel-repo/russian-travel/blocks/root/root.css);
 
 @import url(../../travel-repo/russian-travel/blocks/header/header.css);
 @import url(../../travel-repo/russian-travel/blocks/header/__lang-link/header__lang-link.css);
 @import url(../../travel-repo/russian-travel/blocks/header/__logo/header__logo.css);
-
 
 @import url(../../travel-repo/russian-travel/blocks/lead/lead.css);
 @import url(../../travel-repo/russian-travel/blocks/lead/__caption/lead__caption.css);

@@ -1,4 +1,4 @@
-.place{
+.place {
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -8,6 +8,7 @@
     margin-left: 148px;
     margin-right: 148px;
 }
+
 @media screen and (max-width: 1280px) {
     .place {
         margin-left: 48px;
