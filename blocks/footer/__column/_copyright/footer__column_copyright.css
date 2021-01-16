@@ -1,6 +1,5 @@
 
 .footer__column_copyright {
-    /*width: 186px;*/
     /*height: 16px;*/
     width: 100%;
     display: inline;
@@ -12,24 +11,10 @@
     color: #FFFFFF;
 }
 
-@media all and (max-width: 1280px) {
-    .footer__column_copyright {
-        font-size: 14px;
-        line-height: 16px;
-        margin-right: 48px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .footer__column_copyright {
-        margin-right: 24px;
-    }
-}
-
 @media all and (max-width: 320px) {
     .footer__column_copyright {
         line-height: 14px;
         text-align: left;
-
+        margin: 0;
     }
 }    

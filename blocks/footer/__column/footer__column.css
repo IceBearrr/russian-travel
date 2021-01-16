@@ -1,13 +1,12 @@
 
 .footer__column {
-    margin: 0;
     display: flex;
+    padding-left: 0;
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 767px) {
     .footer__column {
         flex-direction: column;
-        padding-left: 16px;
         height: 100%;
     }
 }

@@ -12,12 +12,6 @@
     margin-left: 148px;
 }
 
-@media all and (min-width: 1280px) {
-    .lead__caption {
-        margin-left: 148px;
-    }
-}
-
 @media all and (min-width: 1024px) {
     .lead__caption {
         margin-left: 48px;

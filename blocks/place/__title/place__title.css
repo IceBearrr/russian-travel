@@ -1,6 +1,5 @@
 
 .place__title {
-    /*height: auto;*/
     /*width: 460px;*/
     color: white;
     font-size: 72px;
@@ -11,24 +10,20 @@
     margin-top: 0;
 }
 
-@media all and (max-width: 1280px) {
-    .place__title {
-        font-size: 72px;
-        line-height: 76px;
-    }
-}
-
 @media all and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
+        align-self: center;
     }
 }
 
 @media all and (max-width: 320px) {
     .place__title {
+        width: 100%;
+        width: calc(100% - 2 * 16px);
         font-size: 32px;
         line-height: 35px;
-        margin: 0 16px 0 16px;
+        margin: 0 auto 0;
     }
 } 

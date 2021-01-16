@@ -1,6 +1,31 @@
 .places {
-    /*width: 984px;*/
+    max-width: 984px;
     /*height: 3392px;*/
-    /*margin-left: 148px;*/
-    margin-bottom: 92px;
+    margin: 0 auto 92px auto;
+}
+
+
+@media all and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+        width: calc(100% - 2 * 48px);
+        margin: 0 48px 92px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        width: calc(100% - 2 * 24px);
+        margin: 0 24px 90px;
+
+    }
+}
+
+@media all and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 0 66px;
+    }
 }

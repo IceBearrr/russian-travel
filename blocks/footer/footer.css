@@ -1,14 +1,26 @@
 .footer {
-    /*width: 1184px;*/
+    max-width: 1184px;
     /*height: 18px;*/
     width: 100%;
-    padding-top: 64px;
-    padding-bottom: 24px;
     flex-direction: row;
+    margin: 64px auto 0 auto;
+}
+
+@media all and (max-width: 1280px) {
+    .footer {
+        width: calc(100% - 2 * 48px);
+    }
+}
+
+@media all and (max-width: 768px) {
+    .footer {
+        width: calc(100% - 2 * 24px);
+    }
 }
 
 @media all and (max-width: 320px) {
     .footer {
         min-height: 310px;
+        padding-bottom: 24px;
     }
 }
