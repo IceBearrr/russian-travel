@@ -22,7 +22,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .header {
         width: calc(100% - 2 * 16px);
         grid-template-columns: 76% 12% 12%;
