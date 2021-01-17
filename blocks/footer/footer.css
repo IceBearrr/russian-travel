@@ -22,5 +22,6 @@
     .footer {
         min-height: 310px;
         padding-bottom: 24px;
+        margin-left: 16px;
     }
 }

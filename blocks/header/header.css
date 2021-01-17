@@ -3,10 +3,10 @@
     max-width: 1184px;
     /*height: 52px;*/
     width: 100%;
-    margin: auto auto 56px auto;
+    margin: 0 auto 56px;
     padding-top: 28px;
-    display: grid;
-    grid-template-columns: 90% 5% 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media all and (max-width: 1280px) {
@@ -18,13 +18,12 @@
 @media all and (max-width: 768px) {
     .header {
         width: calc(100% - 2 * 24px);
-        grid-template-columns: 84% 8% 8%;
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 320px) {
     .header {
         width: calc(100% - 2 * 16px);
-        grid-template-columns: 76% 12% 12%;
     }
-} 
+}
+

@@ -6,9 +6,11 @@
     list-style-type: none;
     align-self: center;
     justify-self: right;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
+    opacity: .8;
     text-decoration: underline;
 }
 
@@ -16,9 +18,12 @@
     text-decoration: underline;
 }
 
+.header__lang-link:visited {
+    text-decoration: underline;
+}
+
 .header__lang-link:last-child {
     margin-right: 0;
-    text-decoration: none;
 }
 
 @media all and (max-width: 320px) {

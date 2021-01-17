@@ -2,8 +2,8 @@
     max-width: 1184px;
     height: 740px;
     width: 100%;
-    background-image: url(../../images/__background.jpg);
-    background-color: rgba(0, 0, 0, .3);
+    background: url(../../images/__background.jpg);
+    background-color: rgba(42, 44, 47, .3);
     background-size: 1184px 740px;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,12 +15,12 @@
 
 
 .cover:hover {
-    opacity: 0.8;
+    background-color: rgba(42, 44, 47, .8);
 }
 
 
 @media all and  (max-width: 1280px) {
-    .cover, .bg-fon {
+    .cover {
         height: 740px;
         background-size: 1184px 740px;
     }

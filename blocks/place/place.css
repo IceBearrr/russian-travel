@@ -3,20 +3,20 @@
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 48px 40px;
     align-items: flex-start;
     justify-items: start;
 }
 
 @media all and (max-width: 1024px) {
     .place {
-        gap: 32px;
+        gap: 48px 32px;
     }
 }
 
 @media all and (max-width: 768px) {
     .place {
-        gap: 28px;
+        gap: 48px 28px;
     }
 }
 
