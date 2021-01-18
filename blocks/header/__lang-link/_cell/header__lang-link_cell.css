@@ -3,4 +3,7 @@
     margin-right: 18px;
 }
 
+.header__lang-link_cell:last-child {
+    margin-right: 0;
+}
 
